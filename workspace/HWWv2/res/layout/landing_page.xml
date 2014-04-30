@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#e5e5e5">
+
+    <Button
+        android:id="@+id/calculateBmi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/calculate"
+        android:text="@string/lButton1"
+        android:textSize="30sp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/addChild"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calculateBmi"
+        android:layout_below="@+id/calculateBmi"
+        android:layout_centerHorizontal="true"        
+        android:background="@drawable/calculate"
+        android:layout_marginTop="77dp"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="@string/lButton2" />
+
+    <Button
+        android:id="@+id/syncData"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addChild"
+        android:layout_below="@+id/addChild"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/calculate"
+        android:text="@string/lButton3"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+</RelativeLayout>
